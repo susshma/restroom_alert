@@ -1,6 +1,18 @@
 Restroom Alert
 ==============
 
+### Our Problem
+
+- Restroom is a mile long walk.
+- Every time you go the restroom the cleaning guy/girl is in the restroom cleaning it up.
+- You can't enter the restroom when they cleaning up, they give you a coldest stare ever.
+
+### Solution
+
+- Place a sensor attached to spark core in the door.
+- When the door is open for some amount of time it will notify people, holdon for a while).
+- When the door is closed the user is notified again, so that they can use the restroom.
+
 Uses a Spark core
 ![](https://www.adafruit.com/images/1200x900/2127-00.jpg)
 
@@ -10,12 +22,6 @@ npm install
 ### Runserver
 
 $ node app.js
-
-### Info
-
-Monitor a door status using spark core and sensors
-
-This web application queries the Spark Core API for data and updates the DOM based on its results.
 
 ### Inspired by Smart-Bathroom
 
